@@ -1,0 +1,154 @@
+.greetings {
+    color: #283593;
+    padding: 50px 50px;
+    margin: 50px 50px;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 100px;
+    text-align: center;
+    background-color: #c5cae9;
+}
+
+.greetings2 {
+  color: #999;
+  font-size: 20px;
+  font-family: "Source Sans 3", sans-serif;
+  padding: 10px 100px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.photos img {
+    width: 100%;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+    margin: 0 0;
+    background-color: #FFF;
+}
+
+body {
+    margin: 0;
+    font-family: "Source Sans 3", sans-serif;
+  }
+  
+  
+  .header {
+    padding: 0 45px;
+    background-color:#283593;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .nav a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease-out;
+  }
+  
+  .nav a:hover {
+    color: #c5cae9;
+    transform: rotate(6deg);
+  }
+  
+  .nav {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-left: 20px;
+  }
+  
+  .hero {
+    background-color: #c5cae9;
+    padding: 60px 45px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-inner {
+    max-width: 760px;
+  }
+  
+  .hero h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.18rem;
+    line-height: 1.6;
+  }
+  
+  .button {
+    background-color: #3949ab;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block;
+  }
+  
+  .button-container {
+    display: flex; /* 使用 Flexbox 布局 */
+    justify-content: center; /* 水平居中 */
+    margin: 20px;
+  }
+
+  .button2 {
+    background-color: #3949ab;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block; /* 保持按钮为行内块级元素 */
+    max-width: fit-content; /* 确保按钮不会变得太长 */
+  }
+
+  .features {
+    background-color: #e8eaf6;
+    padding: 60px 45px;
+
+  }
+  
+  .features-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 45px;
+  }
+  
+  .featured-item h3 {
+    color: #283592;
+    font-size: 1.5 rem;
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  .featured-item p {
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #999;
+    font-size: .9rem;
+  }
